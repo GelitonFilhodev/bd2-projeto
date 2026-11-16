@@ -163,8 +163,6 @@ CREATE TABLE certificado (
   CONSTRAINT ck_certificado_validade CHECK (data_validade >= data_emissao)
 );
 
-COMMIT;
-
 
 
 
