@@ -78,7 +78,7 @@ SELECT
 FROM organizacao o
 JOIN pessoa p ON o.id_organizacao = p.id_organizacao
 GROUP BY o.razao_social
-HAVING COUNT(p.id_pessoa) > 0;
+HAVING COUNT(p.id_pessoa) > 1;
 
 
 -- =========================================================================
